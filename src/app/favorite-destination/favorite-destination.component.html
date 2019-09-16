@@ -1,3 +1,6 @@
-<mat-icon (click)="favClick.emit()">
-  {{ isFavorite ? 'star' : 'star_outline' }}
-</mat-icon>
+<span style="position: relative; display: inline-block;">
+  <mat-icon (click)="favClick.emit()">
+    {{ isFavorite ? 'star' : 'star_outline' }}
+  </mat-icon>
+  <app-help [overlayContainerStyle]="{ 'display': 'inline-block', 'width.px': 350, 'height.px': 40}"> {{ " {{ isFavorite ? 'star' : 'star_outline' "}} }}</app-help>
+</span>

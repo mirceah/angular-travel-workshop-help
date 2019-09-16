@@ -1,4 +1,4 @@
-<span class="overlay-container" *ngIf="isHelp">
+<span class="overlay-container" *ngIf="isHelp" [ngStyle]="overlayContainerStyle">
   <span class="overlay"></span>
   <span class="overlay-content" [ngStyle]="overlayContentStyle"><ng-content></ng-content></span>
 </span>
