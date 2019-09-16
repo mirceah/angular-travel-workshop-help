@@ -1,0 +1,5 @@
+.help-overlay {
+  cursor: pointer;
+  position: absolute;
+  right: -25px;  
+}

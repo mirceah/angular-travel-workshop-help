@@ -10,6 +10,7 @@ import { DestinationDetailsComponent } from './destination-details/destination-d
 import { DestinationSummaryComponent } from './destination-summary/destination-summary.component';
 import { ContactComponent } from './contact/contact.component';
 import { DestinationsComponent } from './destinations/destinations.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   imports:      [
@@ -20,7 +21,7 @@ import { DestinationsComponent } from './destinations/destinations.component';
       { path: '', redirectTo: '/destinations', pathMatch: 'full' }
     ])
     ],
-  declarations: [ AppComponent, FavoriteDestinationComponent, DestinationDetailsComponent, DestinationSummaryComponent, ContactComponent, DestinationsComponent ],
+  declarations: [ AppComponent, FavoriteDestinationComponent, DestinationDetailsComponent, DestinationSummaryComponent, ContactComponent, DestinationsComponent, HelpComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

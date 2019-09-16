@@ -1,5 +1,8 @@
 <nav class="nav-bar">
-  <span class="logo">{{ name }}</span>
+  <span class="logo">
+    {{ name }}
+    <app-help> {{' {{ name '}} }}</app-help>
+  </span>
   <div class="nav-links">
      <a routerLink="destinations" routerLinkActive="active">
       Destinations

@@ -2,3 +2,29 @@
 body {
   background-color: #ddd;
 }
+
+/* HELP */
+.overlay-container {
+  /* display: none; */
+}
+
+.overlay {
+    background: rgba(0,0,0,0.7);
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.overlay-content {
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  z-index: 99999;
+  color: #ffffff;
+  font-family: monospace;
+  font-size: 15px;
+}
