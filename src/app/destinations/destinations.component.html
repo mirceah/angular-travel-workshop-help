@@ -1,6 +1,9 @@
 <div class="destinations-container">
   <div class="display-toggle">
     Display as: <button (click)="toggleDisplay()"> {{ isList ? 'Cards' : 'List' }} </button>
+    <app-help [overlayContentStyle]="{ 'top.px': 10, 'right.px': 10 }">
+      <span class="text-right">Display as: <button> {{" {{ isList  ? 'Cards' : 'List' "}} }} </button></span>
+    </app-help>
   </div>
 
   <div class="destination" *ngFor="let destination of destinations">

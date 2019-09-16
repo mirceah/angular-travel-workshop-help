@@ -17,6 +17,7 @@
 .display-toggle {
   text-align: right;
   padding: 10px;
+  position: relative;
 }
 
 .display-toggle button {

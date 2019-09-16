@@ -7,6 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class HelpComponent {
   @Input() data: string;
+  @Input() overlayContentStyle: any;
 
   isHelp = false;
 

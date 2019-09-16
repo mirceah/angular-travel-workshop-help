@@ -32,3 +32,7 @@ body {
 .overlay-content * {
   color: #ffffff !important;
 }
+
+.text-right {
+  text-align: right;
+}
