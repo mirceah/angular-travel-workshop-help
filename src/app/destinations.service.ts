@@ -4,6 +4,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DestinationsService {
+  isStructure = false;
+
   private destinations = [
     {
       name: 'Minas Tirith',

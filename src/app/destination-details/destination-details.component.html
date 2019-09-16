@@ -9,11 +9,7 @@
     <div> {{ destination.price | currency: USD }} </div>
   </div>
 
-  <span class="wrapper-component">
-    <span class="content">
-      < app-destination-details />
-    </span> 
-  </span>
+  <app-structure>< app-destination-details /></app-structure>
 
   <app-help>
     <div class="destination-title"> {{' {{ destination.name '}} }} </div>

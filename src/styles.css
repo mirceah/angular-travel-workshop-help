@@ -36,3 +36,23 @@ body {
 .text-right {
   text-align: right;
 }
+
+.wrapper-component {
+  border: 2px dashed #bf5e5e;
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    bottom: -7px;
+    left: -7px;
+    border-radius: 10px;
+}
+
+.wrapper-component .content {
+  color: #bf5e5e;
+  font-size: 30px;
+  background: rgba(0,0,0,0.7);
+  padding: 10px;
+  display: block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
