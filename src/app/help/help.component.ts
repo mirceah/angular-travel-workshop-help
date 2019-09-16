@@ -9,6 +9,7 @@ export class HelpComponent {
   @Input() data: string;
   @Input() overlayContainerStyle: any;
   @Input() overlayContentStyle: any;
+  @Input() iconStyle: any;
 
   isHelp = false;
 
