@@ -24,6 +24,6 @@ export class DestinationsService {
   ];
 
   getDestinations() {
-    return this.destinations;
+    return JSON.parse(JSON.stringify(this.destinations));
   }
 }
